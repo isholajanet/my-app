@@ -1,8 +1,9 @@
 export interface NewUser{
+
     firstname: string
     lastname: string
     email: string
-    password: string
+    phonenumber: string
 }
 
 export interface User extends NewUser{
